@@ -1,23 +1,31 @@
 # H1B Job Finder
+---
 - H1B Job Finder searches for past H1B Visa jobs by **company**, **city**, and **job title**.
 - The program uses the [myVisaJobs](https://www.myvisajobs.com/Reports/) Database to retreive up-to-date information.
 
 ## Installation
----
+### Main Install
 1. Download the project folder.
 2. Relocate the project folder to a prefered location on your device.
 
+### Install Packages
+- This program requires the following packages: *pandas*, *bs4*, *requests*, *tqdm*, *IPython.display*, and *lxml*.
+- These packages do not install automatically with the program; however, I will update this in the future.
+- For now, install the packages manually using the following code in terminal:
+```
+pip install [package name]
+```
+
 ## Running H1B Job Finder
----
 ### Option 1: Run Program through Terminal
 - Nagivate to your terminal.
 - Ensure python is up-to-date **(Python 3.9.7)** with `python --version` or `python3 --version`.
 - Run `main.py` using the command `python [file path]` or `python3 [file path]`
     - Find the file path by copying from finder, or by draging and droping the file into terminal.
     - For Example, with the file path `/Users/User/Documents/H1B_Job_Finder/main.py`, the code should appear as follows:
-    ```
-    Computer-Name:~ User$ python /Users/User/Documents/H1B_Job_Finder/main.py
-    ```
+```
+Computer-Name:~ User$ python /Users/User/Documents/H1B_Job_Finder/main.py
+```
 - Follow the instructions in the program.
 
     *Please note that using terminal may result in reduced quality for the presentation of data. Use Option 2 for better quality data presentation.*
@@ -36,7 +44,6 @@
 - I will report back when I am.
 
 ## Project Map
----
 The project map describes the files contained therein, their respective purposes, and their functionality.
 ```
 main.py
