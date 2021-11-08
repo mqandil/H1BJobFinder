@@ -30,7 +30,7 @@
 - Click on `main.py` and run the file using Jupyter.
 - Follow the instructions in the program.
 
-### Option X: Option Unknown
+### Option X: The Unknown Method
 - There are definitely other ways to run this file.
 - I am not yet knowledgeable enough to explain them.
 - I will report back when I am.
